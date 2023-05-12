@@ -1,0 +1,75 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0,9;
+    text-align: center;
+}
+
+.site-header {
+    background-color: black;
+    height: 69px;
+    width: 1270px; /*I had to give a number of pixels because I did not find how to make the heaer take the whole width of the page, the value 'auto' was not working*/
+    position: fixed;
+    z-index: 1; /*enables to stack this element on top of the others (provided the z-index stayes higher)*/
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+    position: relative;
+    right: 10px;
+}
+
+.our-mission-container {
+    background-image: url('../background.jpg');
+    width: 1200px;
+    height: 700px;
+    opacity: 0.5;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-mission {
+    background-color: black;
+    padding: 0.02px 0px 0.02px 0px;
+    width: 1200px;
+}
+
+.tea-of-the-month-container {
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+}
+
+.tea-of-the-month {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fig-month-tea {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}

@@ -10,7 +10,7 @@
 .site-header {
     background-color: black;
     height: 69px;
-    width: 1270px; /*I had to give a number of pixels because I did not find how to make the heaer take the whole width of the page, the value 'auto' was not working*/
+    width: 100%;
     position: fixed;
     z-index: 1; /*enables to stack this element on top of the others (provided the z-index stayes higher)*/
     top: 0px;
